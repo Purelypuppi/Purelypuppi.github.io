@@ -1,0 +1,1175 @@
+/*
+Free to use CSS template by Katie (#106445).
+This code may be altered, edited, or re-uploaded. 
+This template may be used to create paid codes (pre-mades and commissions).
+Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+*/
+
+
+/* FONT (From Google Fonts) */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+
+/* BACKGROUND */
+
+
+body {
+	background: url('https://i.ibb.co/sGY9XDg/Untitled1357-20260429171815.png') center center fixed;
+	background-size: 100%;
+	font-family: "Short Stack", cursive;
+	color: #000
+}
+
+
+/* MAIN PANEL */
+
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(255, 255, 255, 0);
+	border: none;
+	box-shadow: none;
+	border-radius: 0px
+}
+
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+        border-right: none
+}
+
+
+/* TOPBAR ("Welcome back, ___") */
+
+
+.topbar {
+	background: rgba(250, 255, 255, 0.5);
+	border: 5px dashed white;
+	border-top: none;
+	color: #000;
+	border-radius: 10px;
+}
+
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+
+.navbar {
+	background: linear-gradient(90deg, #FF8787, #FFC787, #EFFF87, #9FFF87, #87F7FF, #8BBFFB, #AD87FF, #DF87FF);
+	border: 5px dashed white;
+	color: #0000;
+	border-radius: 10px
+}
+
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+
+.navbar li a {
+	color: #000 !important
+}
+
+
+/* NAVBAR BUTTON HOVER */
+
+
+.navbar li a:hover {
+	background: rgba(255, 255, 255, 0) !important;
+	border-bottom: none;
+color: #FFC2E6 !important;
+	transition: 0.5s !important;
+	font-size: 15px !important;
+	text-shadow: 1px 1px 1.5px var(--shadow);
+}
+
+
+
+/* BREADCRUMB (Home / Den) */
+
+
+.breadcrumb {
+	background: rgba(249, 184, 255, 0) !important;
+      border: px dashed white;
+	border-radius: 0px
+}
+
+
+/* BREADCRUMB TEXT */
+
+
+.breadcrumb .active {
+	color: #000
+}
+
+
+/* CSS CREDIT */
+
+
+.breadcrumb::after {
+        content: "Template by Katie (#106445) Edited by Pure Pure! (#478829)";
+        color: #000;
+        position: absolute;
+        right: 13%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
+
+/* BOOKMARK BUTTON */
+
+
+input.floatright, input.floatright:hover {
+	background: rgba(249, 184, 255, 0.5) !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #452699 !important;    
+}
+
+
+/* SWITCH ACCOUNT BUTTON */
+
+
+button.button, button.button:hover {
+	background: rgba(125, 210, 255, 1);
+      border: 3px dashed #A6DDFF; !important;
+	border-radius: 10px;
+        text-shadow: none !important;
+	color: #000 !important
+}
+
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+
+.alert,
+.alert-warning,
+.alert-danger {
+	background: rgba(255, 255, 255, 0.6) !important;
+	border: 3px dashed white;
+	color: #000;
+	border-radius: 10px !important
+}
+
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+
+h1 {
+	color: #000;
+	font-size: 90px;
+	text-align: center;
+        font-family: "Short Stack", cursive;
+}
+
+
+
+
+/* MEDIUM HEADER */
+
+
+h2 {
+	color: #0000;
+	font-size: 24px;
+	text-align: center
+}
+
+
+
+
+/* SMALL HEADER */
+
+
+h3 {
+	color: #0000 !important;
+	font-size: 14px !important
+}
+
+
+/* RIGHT SIDE PANEL HEADER */
+
+
+.sidebar h3 {
+	color: #ffff !important;
+        font-size: 26px !important;
+        font-family: 
+}
+
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background: rgba(255, 255, 255, 0.5) !important;
+        border: 4px dashed white;                          
+	box-shadow: none !important
+	border-radius: 10
+}
+
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: rgba(255, 255, 255, 0.5);
+	color: #45269 !important;
+	border-radius: 10px !important
+}
+
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: linear-gradient(90deg, #FF8787, #FFC787, #EFFF87, #9FFF87, #87F7FF, #8BBFFB, #AD87FF, #DF87FF);
+	color: #00000 !important;
+	border-radius: 10px !important
+}
+
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #000000 !important
+}
+
+
+/* CHAT */
+
+
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+	background: rgba(255, 255, 255, 0.5); !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+	background: rgba(181, 181, 181, 0.5) !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: rgba(255, 255, 255, 0.5) !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #000000 !important;
+}
+
+
+div#chatMessageContainer {
+	border: 4px solid white; !important;
+}
+
+
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: linear-gradient(90deg, #FF8787, #FFC787, #EFFF87, #9FFF87, #87F7FF, #8BBFFB, #AD87FF, #DF87FF); !important;
+        color: #000000 !important;
+	border: 3px dashed white; !important
+}
+
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+
+
+
+/* PANEL BACKGROUND COLOR */
+
+
+.table {
+	background: rgba(255, 255, 255, 0.6);
+	border: 5px dashed white; !important;
+	border-collapse: separate;
+	border-radius: 10px
+}
+
+
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+
+.top,
+.bottom,
+th {
+	background: linear-gradient(90deg, #FF8787, #FFC787, #EFFF87, #9FFF87, #87F7FF, #8BBFFB, #AD87FF, #DF87FF) !important;
+	color: #000 !important;
+	border-radius: 10px
+}
+
+
+td.bottom a {
+        text-decoration: none !important
+}
+
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+
+.inner-table .left {
+	background: rgba(255, 255, 255, 0) !important;
+        color: #00000;
+	border-radius:10px
+}
+
+
+
+
+/* Color behind the number of all of the things above */
+
+
+.inner-table .right {
+	background: none;
+	border-radius: 10px !important
+}
+
+
+td.right {
+	border-radius: 0px !important
+}
+
+
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+
+
+.cave-grid,
+.mound-grid {
+	background: rgba(250, 194, 255, 0);
+      border: 5px dashed white; !important
+	border: dashed !important;
+	border-radius: 10px !important
+}
+
+
+/* FEED ALL, PLAY ALL */
+
+
+.feature {
+	background: rgba(250, 194, 255, 0) !important;
+	color: #000 !important;
+	border: 3px dashed white !important;
+	border-radius: 0px !important
+}
+
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+
+.feature,
+div.left {
+	background: rgba(255, 255, 255, 0.5);
+border: 4px dashed white; !important
+	border: none;
+	border-radius: 0px !important
+}
+
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+
+.table .left {
+	background: rgba(250, 194, 255, 0);
+        border-radius: 10px
+}
+
+
+/* Color behind the content of the elements listed above */
+
+
+input,
+select,
+textarea {
+	background: rgba(250, 194, 255, 0) !important;
+	border: 2px dashed white; !important
+	border-radius: 10px !important;
+	color: #00000 !important;
+	box-shadow: none !important;
+	text-shadow: none !important
+}
+
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+
+.item-header {
+	background: rgba(250, 194, 255, 0.5) !important;
+	color: #00000  !important;
+	border-radius: 10px !important;
+}
+
+
+.item {
+	background: rgba(1, 1, 1, 0.5) !important;
+	border: none !important;
+	border-radius: 0px !important
+}
+
+
+/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+
+
+div.slider.round /* Background */ {
+	background: #452699 !important
+}
+
+
+div.slider.round::before /* Circle Part */ {
+	background: #452699
+!important
+}
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #000000 !important;
+        text-shadow: none !important
+}
+
+
+/* LINK COLOR */
+
+
+a:link,
+a:visited {
+color: #73CBFF !important;
+	transition: 0.7s !important;
+	font-size: 13px !important;
+	text-shadow: 1px 1px 1.5px var(--shadow);
+color: #73CBFF !important
+}
+
+
+/* LINK HOVER COLOR */
+
+
+a:hover{
+color: #AC8CFF !important
+}
+
+
+}
+
+/* BOX CONTAINER */
+
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex
+}
+
+
+/* BOXES */
+
+
+.smallbox {
+	float: center;
+	background: rgba(1, 1, 1, 0);
+	color: #00000;
+	padding: 10px;
+	border: dashed white;
+	border-radius: 5px;
+	margin: 10px;
+	height: 150px;
+	width: 28.4%;
+	overflow: auto
+}
+
+
+.mediumbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 43.8%;
+	overflow: auto
+}
+
+
+.largebox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 90%;
+	overflow: auto
+}
+
+
+background: rgba(1, 1, 1, 0);
+
+/* HOVER BOXES */
+
+
+.smallhoverbox {
+	float: left;
+	color: #000000;
+	padding: 10px;
+	border: 3px dashed white;
+	border-radius: 0px;
+	margin: 10px;
+	height: 50px;
+	width: 28.4%;
+	overflow: auto;
+        transition: 1s
+}
+
+
+.smallhoverbox:hover {
+	height: 150px;
+	width: 28.4%;
+}
+
+
+.mediumhoverbox {
+	float: left;
+	color: #000000;
+	padding: 10px;
+	border: 3px dashed white;
+	border-radius: 0px;
+	margin: 10px;
+	height: 60px;
+	width: 43.8%;
+	overflow: auto;
+        transition: 1s
+}
+
+
+.mediumhoverbox:hover {
+	height: 150px;
+	width: 43.8%;
+}
+
+
+.largehoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0);
+	color: #000000;
+	padding: 10px;
+	border: 3px dashed white;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 90%;
+	overflow: auto;
+        transition: 1s
+}
+
+
+.largehoverbox:hover {
+	height: 150px;
+	width: 90%;
+}
+
+
+/* SCROLL BAR */
+
+
+/* WIDTH */
+
+
+::-webkit-scrollbar {
+	width: 10px
+}
+
+
+
+
+/* BACKGROUND */
+
+
+::-webkit-scrollbar-track {
+	background: #00000
+}
+
+
+
+
+/* "THUMB" */
+
+
+::-webkit-scrollbar-thumb {
+	background: #4FBDFF;
+	border-radius: 10px
+}
+
+
+
+
+/* LION AND USER AVATAR OPACITY */
+
+
+div#lion_image {
+	opacity: 1
+}
+
+
+table#player img {
+	opacity: 0.9
+}
+
+
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 1px; /* May need adjusting */
+	margin-left: 1px /* May need adjusting */
+}
+
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden
+}
+
+
+
+
+/* LIODEN LOGO REPLACER */
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://i.ibb.co/0RhtYvWh/120570912-0t-AXv-Uq-P5-Bch-PUP-1-cropped.png')
+}
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img:hover {
+
+transform: perspective(1000px) rotateX(40deg) rotateY(10deg) scale(1.4);
+transition: transform 0.4s ease;
+
+}
+
+
+/* CAVE / MOUND IMAGES */
+
+
+/* all caves image*/
+div.cave-grid>img {
+	content: url('https://i.pinimg.com/originals/43/80/c2/4380c204addbb1813c6d752d50518f42.gif')!important;
+	padding-left: 0%;
+	height: 140px;	
+	width: 260px;
+	opacity: 0.7;
+	border: 0px ridge;
+	overflow: hidden;
+	border: 0px;
+	border-radius: 10px !important;
+	box-shadow:  1px 1px 5px var(--darkgray)!important;
+	transition: 1.5s;
+}
+div.cave-grid>img:hover{
+	opacity: 1;
+	overflow: hidden;
+	transition: 0.8s !important;
+}
+div.cave-grid>img[src$="nestingbanner.png"] {
+	content: url('https://i.ibb.co/gq9QgVg/download-12-cropped.gif')!important;
+}
+/* unsorted cave */
+div.cave-grid>img[src$="unsortedlionsbanner.png"] {
+	content: url('https://i.ibb.co/1YfGvdDF/download-13-cropped.gif')!important;
+}
+/* pride overview cave */
+div.cave-grid>img[src$="prideoverviewbanner.png"] {
+	content: url('https://i.pinimg.com/originals/66/f2/51/66f251be5f41d6b4a0c916bc5a73c37a.gif')!important;
+
+
+}
+/* MOUDNBSANDSQA */
+.mound-grid img {
+	background: url('https://guro.crd.co/assets/images/gallery79/992a77f8.gif?v=bac75569');
+	background-size:cover;
+	width: 100%;
+	height: 100%;
+	padding-top: 100%;
+	padding-right: 100%;
+	max-height:150px;
+	border-radius: 10px !important;
+	opacity: 0.7;
+	transition: 1.5s;
+	box-shadow:  1px 1px 5px var(--darkgray)!important;
+}
+.mound-grid img:hover{
+	opacity: 1;
+	transition: 0.8s !important;
+}
+
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		}
+	}
+
+img.floatleft {
+content:url('https://guro.crd.co/assets/images/gallery43/760374a8.gif?v=bac75569') !important;
+border-radius: 0% !important; }
+
+
+
+table#about {
+    background: url('https://i.pinimg.com/originals/fc/e8/f9/fce8f98d918850730dd33f9bbb073f5b.gif') top;
+	background-size: 100%;
+    border-radius: px 30px 0px 0px;
+    box-shadow:  0px 0px 5px #153900!important;
+}
+
+/* Codes made by Pandora #144118 and Moses #95222 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* REMOVE 'Member ID' */
+div.floatright > small {
+    display:none;
+}
+
+
+
+/* USE THESE TO CHANGE TO AN IMAGE */
+ 
+/* MEMBER ONLINE */
+ 
+.member-online {
+    background: rgba(207,207,207,0);
+    content:url('https://mypillowfort.net/two2/tumblr_lzkp40b0Sl1qhwcy0540.gif')!important;
+     width:20px!important;
+     height:20px;
+ 
+}
+ 
+/* MEMBER OFFLINE */
+ 
+.member-offline {
+    background: rgba(207,207,207,0);
+    content:url('https://guro.crd.co/assets/images/gallery11/081acb4f.gif?v=bac75569')!important;
+     width:20px!important;
+     height:20px;
+ 
+}
+
+/* GB/SB ICONS */
+ 
+/* GOLD BEETLE */
+img[src$="gold.png"] {
+    content:url('https://guro.crd.co/assets/images/gallery12/3c6fd7ba.gif?v=bac75569')!important;
+    width:20px!important;
+ 
+}
+ 
+/* SILVER BEETLE */
+img[src$="silver.png"] {
+    content:url('https://guro.crd.co/assets/images/gallery32/6228d4d2.gif?v=bac75569')!important;
+    width:20px!important;
+ 
+}
+
+
+/* Codes made by Pandora #144118  
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* CUSTOM KING TITLE - AFTER */
+ 
+#about > tbody > tr:nth-child(1) > td > div::after {
+    content:'!';
+    font-size:17px;
+    
+}
+ 
+/* CUSTOM KING TITLE - BEFORE */
+ 
+#about > tbody > tr:nth-child(1) > td > div::before {
+    content:'Angelic';
+    font-size:17px;
+    
+}
+
+
+
+
+
+ 
+#commentBox  {
+background-image: url("https://i.pinimg.com/originals/19/22/c8/1922c840f70e70269e7369cc7012e141.gif");
+}
+
+#lion_image>div::after {
+content : url('https://i.ibb.co/DPMLf4Fx/Untitled1330-20260329035217.png')!important;
+display:block;
+background-image: url('https://i.imgur.com/y7IbC2z.jpeg')!important;
+position: absolute!important;
+bottom: -px!important;
+right: -px!important;
+transform: scaleX(1)!important;
+
+}
+
+ *{
+	/* Start https://www.cursors-4u.com/cursor/blinking-hello-kitty-5 */ * {cursor: url(https://cdn.cursors-4u.net/css-previews/blinking-hello-kitty-angel-c592abfe-css.webp), auto !important;} /* End https://www.cursors-4u.com */
+
+}
+/* Animatedd Pagedoll by Xavi#537744    13/04/2026 */
+.pagedoll {
+position: fixed;
+float: bottom right;
+bottom: 145px!important;
+right: 30px;
+background: rgba(17, 17, 17, 0);
+animation-name: floating;
+animation-duration: 2.73s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+width: 250px;
+height: 250px;
+z-index:1;
+padding: 2px;
+display: inline;
+}
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }
+}
+
+
+
+.col-xs-6 h3 .floatright {
+    content: url('https://i.postimg.cc/KYxKfwWH/right-wing1.webp') !important;
+    height: 50px;
+    position: absolute !important;
+    top: 45% !important;
+    left: 70% !important;
+    z-index: 1230 !important;
+    margin-bottom: -50px !important;
+}
+
+ 
+/* MIDDLE */
+ 
+div.col-xs-5> a:nth-child(1) > h3 > div {
+    content:url('https://file.garden/Z4-KIXj5okOfzeyR/STASH/Pixels/gemmini40.gif');
+    position:absolute;
+    width:70px;
+	margin-right: 50px;	
+	right: -50px;
+    margin-top: -40px;
+	z-index:4;
+}
+ 
+/* BOTTOM */
+ 
+div.col-xs-5> a:nth-child(3) > h3 > div {
+    content:url('https://64.media.tumblr.com/1fd191af4e5b7d65f878c9d5049c76df/2ee50805d02aa363-9a/s75x75_c1/47684533062f9f6244ca2f2fe50172a342212124.gif');
+    position:absolute;
+    width:70px;
+	margin-right: 50px;	
+	right: -50px;
+	margin-top: -40px;
+	z-index:5;
+}
+
+
+
+
+
+
+/* SEASON */
+/* DRY SEASON */
+img[src$="dry.png"] {
+    content:url('https://64.media.tumblr.com/d9038f48d6f0319ea47133acfa644e27/b70af412ec4b4546-11/s250x400/2074cc4707191f9e73430eb53df770db2498dfb4.gifv')!important;
+    width:50px!important;
+}
+/* WET SEASON */
+img[src$="wet.png"] {
+    content:url('https://64.media.tumblr.com/d86f5cd51cbf28d77a730a0f0eff4cfb/e37c684b629d881a-55/s250x400/e429b19b7907ebae4854859d82f93d2ee190698c.gif')!important;
+    width:50px!important;
+}
+
+
+/* TIME DAY */
+img[src$="day.png"] {
+    content:url('https://64.media.tumblr.com/121230f70f2936c2324571fe1c17e8a5/05f57993eb2fc133-0e/s400x600/36271bf30ea36b23f9f7b2d994c4b1bbc95b0a21.gif')!important;
+        width:50px!important;
+	margin-left:-40px;
+}
+/* TIME NIGHT */
+img[src$="night.png"] {
+    content:url('https://64.media.tumblr.com/5925b20c995c8c3020550b6591ce40a9/05f57993eb2fc133-7c/s400x600/01377d1bc5273b9e5f607cbe97a4ff0dfc9ff601.gif')!important;
+        width:50px!important;
+	margin-left:-40px;
+}
+/* EVENT CURRENCY */
+/* JAN */
+img[src$="dermestid.png"] {
+    content:url('https://64.media.tumblr.com/4fbaf755e55d3bdc650fb8402d0aee51/0d871cf3b7e3492a-71/s75x75_c1/ab9485c252cead8325cc8bcb82949fb045b198ba.gif')!important;
+    width:30px!important;
+}
+/* FEB */
+img[src$="heartshell.png"] {
+    content:url('https://64.media.tumblr.com/4fbaf755e55d3bdc650fb8402d0aee51/0d871cf3b7e3492a-71/s75x75_c1/ab9485c252cead8325cc8bcb82949fb045b198ba.gif')!important;
+    width:30px!important;
+}
+/* MARCH */
+img[src$="beetlerhino.png"] {
+    content:url('https://64.media.tumblr.com/4fbaf755e55d3bdc650fb8402d0aee51/0d871cf3b7e3492a-71/s75x75_c1/ab9485c252cead8325cc8bcb82949fb045b198ba.gif')!important;
+    width:30px!important;
+}
+/* APRIL */
+img[src$="easteregg.png"] {
+	content:url('https://64.media.tumblr.com/4fbaf755e55d3bdc650fb8402d0aee51/0d871cf3b7e3492a-71/s75x75_c1/ab9485c252cead8325cc8bcb82949fb045b198ba.gif')!important;
+	width:30px!important;
+}
+/* MAY */
+img[src$="beetlemant.png"] {
+    content:url('https://64.media.tumblr.com/4fbaf755e55d3bdc650fb8402d0aee51/0d871cf3b7e3492a-71/s75x75_c1/ab9485c252cead8325cc8bcb82949fb045b198ba.gif')!important;
+    width:30px!important;
+}
+/* JUNE */
+img[src$="khepri.png"] {
+    content:url('https://64.media.tumblr.com/4fbaf755e55d3bdc650fb8402d0aee51/0d871cf3b7e3492a-71/s75x75_c1/ab9485c252cead8325cc8bcb82949fb045b198ba.gif')!important;
+    width:30px!important;
+}
+/* JULY MS */
+img[src$="shard.png"] {
+    content:url('https://64.media.tumblr.com/4fbaf755e55d3bdc650fb8402d0aee51/0d871cf3b7e3492a-71/s75x75_c1/ab9485c252cead8325cc8bcb82949fb045b198ba.gif')!important;
+    width:30px!important;
+}
+/* JULY AC */
+img[src$="axion.png"] {
+    content:url('https://64.media.tumblr.com/4fbaf755e55d3bdc650fb8402d0aee51/0d871cf3b7e3492a-71/s75x75_c1/ab9485c252cead8325cc8bcb82949fb045b198ba.gif')!important;
+    width:30px!important;
+}
+/* AUG CB */
+img[src$="beetlecarrion.png"] {
+    content:url('https://64.media.tumblr.com/4fbaf755e55d3bdc650fb8402d0aee51/0d871cf3b7e3492a-71/s75x75_c1/ab9485c252cead8325cc8bcb82949fb045b198ba.gif')!important;
+    width:30px!important;
+}
+/* AUG DB */
+img[src$="bone.png"] {
+    content:url('https://64.media.tumblr.com/4fbaf755e55d3bdc650fb8402d0aee51/0d871cf3b7e3492a-71/s75x75_c1/ab9485c252cead8325cc8bcb82949fb045b198ba.gif')!important;
+    width:30px!important;
+}
+/* SEPT JB */
+img[src$="beetlejewel.png"] {
+    content:url('https://64.media.tumblr.com/4fbaf755e55d3bdc650fb8402d0aee51/0d871cf3b7e3492a-71/s75x75_c1/ab9485c252cead8325cc8bcb82949fb045b198ba.gif')!important;
+    width:30px!important;
+}
+/* SEPT ET */
+img[src$="eldritch.png"] {
+    content:url('https://mypillowfort.net/media5/tumblr_04d22b5faf6478c6300819cabaef1b7d_e58a75bc_75.gif')!important;
+    width:30px!important;
+}
+/* OCT BB */
+img[src$="beetleblood.png"] {
+    content:url('https://64.media.tumblr.com/4fbaf755e55d3bdc650fb8402d0aee51/0d871cf3b7e3492a-71/s75x75_c1/ab9485c252cead8325cc8bcb82949fb045b198ba.gif')!important;
+    width:30px!important;
+}
+/* OCT NF */
+img[src$="nephelinefeather.png"] {
+    content:url('https://mypillowfort.net/media5/tumblr_15b30af22bf522458ae36bdb63feb06b_6549f7bf_75.gif')!important;
+    width:30px!important;
+}
+/* OCT DS */
+img[src$="demonicscale.png"] {
+    content:url('https://mypillowfort.net/media5/tumblr_04d22b5faf6478c6300819cabaef1b7d_e58a75bc_75.gif')!important;
+    width:30px!important;
+}
+/* NOV */
+img[src$="scarabbeetle.png"] {
+    content:url('https://64.media.tumblr.com/4fbaf755e55d3bdc650fb8402d0aee51/0d871cf3b7e3492a-71/s75x75_c1/ab9485c252cead8325cc8bcb82949fb045b198ba.gif')!important;
+    width:30px!important;
+}
+/* DEC */
+img[src$="stinkbug.png"] {
+    content:url('https://64.media.tumblr.com/4fbaf755e55d3bdc650fb8402d0aee51/0d871cf3b7e3492a-71/s75x75_c1/ab9485c252cead8325cc8bcb82949fb045b198ba.gif')!important;
+    width:30px!important;
+
+
+
+}
+/* beetle book adjustment code by tawnyCollar#251887. may be used in commissions, personal CSS, and free CSS. do NOT remove credit, or reupload claiming it as your own. */
+/* change beetle book image */
+img[src$="den_ancestors.png"] {
+	background:none!important; 
+   	    content:url('https://64.media.tumblr.com/fa841169225b9cc793a071f30c749484/e63f002f858d1dc7-fb/s250x400/f888d2c27e519a595816f37bc95d020186e25f91.gif')!important;
+}
+img[src$="den_ancestorsfem.png"] {
+	background:none!important; 
+	    content:url('https://64.media.tumblr.com/fa841169225b9cc793a071f30c749484/e63f002f858d1dc7-fb/s250x400/f888d2c27e519a595816f37bc95d020186e25f91.gif')!important;	
+	transform: scaleX(-1);
+}
+img[src$="den_achievements.png"] {
+	background:none!important; 
+        content:url('https://64.media.tumblr.com/fa841169225b9cc793a071f30c749484/e63f002f858d1dc7-fb/s250x400/f888d2c27e519a595816f37bc95d020186e25f91.gif')!important;
+}
+img[src$="den_showcase.png"] {
+	background:none!important; 
+   	    content:url('https://64.media.tumblr.com/fa841169225b9cc793a071f30c749484/e63f002f858d1dc7-fb/s250x400/f888d2c27e519a595816f37bc95d020186e25f91.gif')!important;
+	transform: scaleX(-1);
+	
+}
+img[src$="den_beetlebook.png"] {
+	background:none!important; 
+        content:url('https://64.media.tumblr.com/fa841169225b9cc793a071f30c749484/e63f002f858d1dc7-fb/s250x400/f888d2c27e519a595816f37bc95d020186e25f91.gif')!important;
+}
+
+
+
+
+/* Comment Box Header by Hok-Z#41458 / #170947 */
+#commentBox::before {
+content: "Bless the internet angel Pure Pure!ᨳ( ̷ཀ˕◟̥̥)ഒ";
+background: linear-gradient(90deg, #FF8787, #FFC787, #EFFF87, #9FFF87, #87F7FF, #8BBFFB, #AD87FF, #DF87FF);
+color: black;
+display: block;
+width: 96.%;
+height: 40px;
+position: sticky;
+padding-top: 6px;
+border: dashed 3px white;
+}
+
+
+
+
+
+.cornerbox {
+position: fixed;
+bottom: 0;
+left: 0; 
+height: 90px;
+width: 310px;
+overflow: scroll;
+Border: 5px dashed white;
+transition: 1s;
+property: value;
+background: linear-gradient(90deg, #FF8787, #FFC787, #EFFF87, #9FFF87, #87F7FF, #8BBFFB, #AD87FF, #DF87FF) 
+}
+.cornerbox:hover {
+height: 500px;
+}
+
+
+
+}
+
+/* menu dropbox */
+.channelMenu>button,
+.channelMenu>div {
+	background: linear-gradient(90deg, #FF8787, #FFC787, #EFFF87, #9FFF87, #87F7FF, #8BBFFB, #AD87FF, #DF87FF) !important;
+	border-color: var(--borderColor) !important;
+	color: var(--fc2) !important;
+	box-shadow: none !important;
+}
+
+
+/* REMOVE WHITE LINE */
+#player hr {
+display:none;
+}
+
+input#comment {background: !important;
+color: #AB78DE !important;
+    border-radius: 3px;
+}
+
+
+/* mobile background - fixed image stretching code by tawnycollar #251887 */
+@media screen and (max-width: 768px){
+body {
+background: url("https://i.ibb.co/sGY9XDg/Untitled1357-20260429171815.png") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+html:not(.nolayout) body:after {
+content:"";
+position:fixed; 
+top:0;
+height:160vh;
+left:0;
+right:0;
+z-index:-1; 
+background: url("https://i.ibb.co/sGY9XDg/Untitled1357-20260429171815.png") center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+}
+
+.comment { 
+text-align: center !important;}
+
+.snowflakes {
+<style>
+    @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
+
+
+
+</style>
+
