@@ -646,12 +646,12 @@ color: #D1D1D1 !important
 
 
 div#lion_image {
-	opacity: 1
+	opacity: 0.5
 }
 
 
 table#player img {
-	opacity: 0.9
+	opacity: 0.6
 }
 
 
@@ -833,16 +833,7 @@ background-image: url("https://i.pinimg.com/originals/16/4d/d8/164dd893a7864df60
  
 }
 
-#lion_image>div::after {
-content : url('https://i.ibb.co/DPMLf4Fx/Untitled1330-20260329035217.png')!important;
-display:block;
-background-image: url('https://i.imgur.com/y7IbC2z.jpeg')!important;
-position: absolute!important;
-bottom: -px!important;
-right: -px!important;
-transform: scaleX(1)!important;
 
-}
 
  *{
 	/* Start https://www.cursors-4u.com/cursor/blinking-hello-kitty-5 */ * {cursor: url(https://cdn.cursors-4u.net/previews/angel-wings-gaia-online-cdfddaba-32.webp), auto !important;} /* End https://www.cursors-4u.com */
