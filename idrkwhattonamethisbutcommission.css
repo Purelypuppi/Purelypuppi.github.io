@@ -16,7 +16,7 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 
 body {
-	background: url('https://i.pinimg.com/1200x/e9/91/27/e991273a4fa570567b994384b0b33bb6.jpg') center center fixed;
+	background: url('https://i.pinimg.com/1200x/26/c9/7d/26c97daac69077500e33a2d32fee1ac1.jpg') center center fixed;
 	background-size: 100%;
 	font-family: "Winky Rough", sans-serif;
 	color: #999999
@@ -401,7 +401,7 @@ td.right {
 
 .feature {
 	background: rgba(250, 194, 255, 0) !important;
-	color: #000 !important;
+	color: #00 !important;
 	border: 3px double white !important;
 	border-radius: 0px !important
 }
@@ -701,7 +701,7 @@ table#player img {
 
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://i.ibb.co/nNJByWL0/download-1-removebg-preview-1-cropped.png')
+	content: url('https://i.ibb.co/6JV5j4Tk/Elden-Ring-Logo-PNG-Vector-SVG-Free-Download-removebg-preview-cropped.png')
 }
 
 
@@ -833,14 +833,14 @@ div.floatright > small {
  
 /* GOLD BEETLE */
 img[src$="gold.png"] {
-    content:url('https://guro.crd.co/assets/images/gallery05/c5c47fcb.gif?v=6aea3463')!important;
+    content:url('https://guro.crd.co/assets/images/gallery12/895cec0a.png?v=6aea3463')!important;
     width:20px!important;
  
 }
  
 /* SILVER BEETLE */
 img[src$="silver.png"] {
-    content:url('https://guro.crd.co/assets/images/gallery05/a0eaa5c1.gif?v=6aea3463')!important;
+    content:url('https://guro.crd.co/assets/images/gallery08/f9a62424.gif?v=6aea3463')!important;
     width:20px!important;
  
 }
@@ -968,13 +968,13 @@ display:none;
 
 
 *{
-	/* Start https://www.cursors-4u.com/cursor/blinking-hello-kitty-5 */ * {cursor: url(https://cdn.cursors-4u.net/previews/the-elders-scroll-skyrim-unavailable-8febbf7c-32.webp), auto !important;} /* End https://www.cursors-4u.com */
+	/* Start https://www.cursors-4u.com/cursor/blinking-hello-kitty-5 */ * {cursor: url(https://cdn.cursors-4u.net/previews/maplestory-sword-3-d5e6f0c4-32.webp), auto !important;} /* End https://www.cursors-4u.com */
 
 
 
 /* ANIMATED FIREFLIES: EDITED FOR LIODEN, BY PLAYER =Austin= #43750 */
 /* ANIMATED BY MARK GOLUS ON CODEPEN: https://codepen.io/mikegolus/pen/Jegvym */
- 
+ }
 .firefly {
   position: fixed;
   left: 50%;
